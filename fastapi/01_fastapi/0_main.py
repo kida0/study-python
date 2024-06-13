@@ -1,8 +1,8 @@
 from fastapi import FastAPI, Query
 from typing import List, Dict, Optional, Union
 
-app = FastAPI()
 
+app = FastAPI()
 
 @app.get("/")
 def main():

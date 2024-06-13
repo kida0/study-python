@@ -97,4 +97,3 @@ async def signup(signup_data: UserCreate, db: Session = Depends(get_db)):
 @app.post("/login")
 async def login(requrest: Request, signup_data: UserLogin, db: Session = Depends(get_db)):
     pass
-

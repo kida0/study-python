@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 from typing import Optional, List
 
-app = FastAPI()
 
+app = FastAPI()
 
 class ItemA(BaseModel):
     name: str
